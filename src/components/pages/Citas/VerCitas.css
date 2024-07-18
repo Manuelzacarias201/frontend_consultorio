@@ -1,0 +1,35 @@
+/* styles.css */
+.data-table-container {
+    margin: 60px;
+    padding: 40px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.data-table {
+    font-family: Arial, sans-serif;
+    width: 100%;
+}
+
+.data-table th, .data-table td {
+    padding: 12px;
+    text-align: left;
+}
+
+.data-table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.data-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.data-table tr:hover {
+    background-color: #ddd;
+}
+
+.selectable-row {
+    cursor: pointer;
+}
