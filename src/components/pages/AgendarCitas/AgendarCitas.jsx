@@ -19,6 +19,10 @@ const AgendarCitas =()=>{
             placeholder="Nombre del paciente"
             />
             <Input
+            type="text"
+            placeholder="Correo Electronico"
+            />            
+            <Input
             type="date"
             />
             <Input

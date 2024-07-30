@@ -11,6 +11,8 @@ import SecretarioHome from './components/pages/SecretarioHome/SecretarioHome.jsx
 import AgregarMedicamento from './components/pages/AgregarMedicamentos/AgregarMedicamento.jsx'
 import ModificarCitas from './components/pages/ModificarCitas/ModificarCitas.jsx'
 import VerCitas from './components/pages/Citas/VerCitas.jsx'
+import AtenderCita from './components/pages/AtenderCita/AtenderCita.jsx'
+import HistorialMedico from './components/pages/HistorialMedico/HistorialMedico.jsx'
 
 const router = createBrowserRouter ([
   {
@@ -38,9 +40,16 @@ const router = createBrowserRouter ([
     path:"/ModificarCitas",
     element:<ModificarCitas/>
   },{
-    path:"/verCitas",
+    path:"/VerCitas",
     element:<VerCitas/>
+  },{
+    path:"/AtenderCita",
+    element:<AtenderCita/>
+  },{
+    path:"/HistorialMedico",
+    element:<HistorialMedico/>
   }
+
 ]);
 
 
